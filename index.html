@@ -7,34 +7,39 @@
     <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
-    <header>
-        <form action="">
-            <input type="search" placeholder="Enter a city..." required>
-            <input type="submit" value="Search">
-        </form>
-    </header>
     <main>
+        <div class="header">
+            <form action="">
+                <input type="search" placeholder="Enter a city..." class="search-input" required>
+                <input type="submit" value="Search" class="search-btn">
+            </form>
+        </div>
         <div class="main-section">
-            <div class="city-name city-date">
-                <h1>Johannesburg</h1>
-                <p>Thursday 09:50</p>
+            <div class="city-details">
+                <h1 class="city-name">Johannesburg</h1>
+                <p class="city-date">Thursday 09:50</p>
             </div>
             <div class="city-temp">
-                ☀️11°C
+                <span class="emoji">☀️</span>11°C
             </div>
         </div>
         <div class="weather-info">
             <div class="weather-humidity">
+                <h2>Humidity</h2>
                 <p>60%</p>
             </div>
             <div class="weather-wind">
+                <h2>Wind</h2>
                 <p>11 km/h</p>
             </div>
             <div class="weather-uv-index">
+                <h2>UV-Index</h2>
                 <p>Moderate</p>
             </div>
         </div>
+        <div class="footer">
+            <p class="footer-text">Built by <a href="https://github.com/Melissa-Henry-Dev">Melissa</a> code hosted on <a href="https://github.com/Melissa-Henry-Dev/Weather-App">Github</a> and website hosted on <a href="https://weather-application-melissa.netlify.app/">Netlify</a></p>
+        </div>
     </main>
-    <footer>Built by <a href="https://github.com/Melissa-Henry-Dev">Melissa</a> code hosted on <a href="https://github.com/Melissa-Henry-Dev/Weather-App">Github</a> and website hosted on <a href="https://weather-application-melissa.netlify.app/">Netlify</a></footer>
 </body>
 </html>
