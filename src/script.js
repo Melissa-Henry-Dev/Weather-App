@@ -47,5 +47,34 @@ function formatDate(date) {
     return `${day} ${hours}:${minutes}`;
 }
 
+function displayForecast() {
+
+    let days = ['Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    let forecastHtml = "";
+
+    days.forEach(function (day) {
+        forecastHTML = 
+            forecastHtml +
+            `
+            <div class="wather-forecast-day">
+                <div class="weather-forecast-date">${day}</div>
+                <div class="weather-forecast-icon"></div>
+                <div class="weather-forecast-temperatures">
+                    <div class="weather-forecast-temp">
+                        <strong>15°</strong>
+                    </div>
+                    <div class="weather-forecast-temp">8°</div>
+                </div>
+            </div>
+        `;
+    });
+
+    let forecastElement = document.querySelector("#forecast");
+    forecastElement.innerHTML = forecastHtml;
+}
 
 searchCity("Rotterdam");
+displayForecast();
+
+
+
