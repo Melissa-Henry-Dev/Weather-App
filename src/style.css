@@ -6,6 +6,7 @@ html{
 body {
     background: linear-gradient(#5a7b99, #466076, #324455, #1e2933, #141b22);
     background-repeat: no-repeat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 a{
@@ -26,6 +27,11 @@ h2{
     color: #fff;
 }
 /*CLASSES*/
+.footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
 .header{
     padding-top: 15px;
 }
@@ -56,7 +62,6 @@ h2{
 
 .city-details{
     margin-left: 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #fff;
 }
 
@@ -89,6 +94,7 @@ h2{
     text-align: center;
     color: #fff;
     font-size: 20px;
+    font-weight: 100;
 }
 
 .weather-humidity{
@@ -121,4 +127,35 @@ h2{
     width: 80px;
     height: 80px;
     margin-top: 20px;
+}
+
+.weather-forecast-date{
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.weather-forecast-icon{
+    font-size: 38px;
+    text-align: center;
+}
+
+.weather-forecast-temperatures{
+    text-align: center;
+    color: #1e2933;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.weather-forecast-temp{
+    padding: 0 8px;
+}
+
+.weather-forecast{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
 }
