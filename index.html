@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Application</title>
     <link rel="stylesheet" href="src/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 <body>
     <main>
         <div class="header">
-            <form action="">
-                <input type="search" placeholder="Enter a city..." class="search-input" required>
+            <form action="" class="search-form" id="search-form">
+                <input type="search" placeholder="Enter a city..." class="search-input" id="search-form-input" required>
                 <input type="submit" value="Search" class="search-btn">
             </form>
         </div>
