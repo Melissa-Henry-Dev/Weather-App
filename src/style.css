@@ -4,13 +4,13 @@ html{
 }
 
 body {
-    background: linear-gradient(#95d6ea, #7bc7dd, #62a1c7, #528ab4, #15719f);
+    background: linear-gradient(#5a7b99, #466076, #324455, #1e2933, #141b22);
     background-repeat: no-repeat;
 }
 
 a{
     text-decoration: none;
-    color: #15719f;
+    color: #fff;
 }
 
 main{
@@ -36,14 +36,14 @@ h2{
     border-radius: 30px 0 0 30px;
     outline: none;
     font-size: 16px;
-    width: 50%;
+    width: 70%;
 }
 
 .search-btn{
     padding: 12px 15px;
     border: none;
     border-radius: 0 30px 30px 0;
-    background-color: #62a1c7;
+    background-color: #5a7b99;
     cursor: pointer;
     color: #fff;
 }
@@ -88,23 +88,16 @@ h2{
 }
 
 .weather-humidity{
-    background-color: #15719f4a;
+    background-color: #1e2933;
     border-radius: 10px;
     width: 150px;
     padding-left: 15px;
     padding-right: 15px;
     height: 150px;
 }
-.weather-uv-index{
-    background-color: #15719f4a;
-    border-radius: 10px;
-    width: 150px;
-    padding-left: 15px;
-    padding-right: 15px;
-    height: 150px;
-}
+
 .weather-wind{
-    background-color: #15719f4a;
+    background-color: #1e2933;
     border-radius: 10px;
     width: 150px;
     padding-left: 15px;
@@ -112,7 +105,7 @@ h2{
     height: 150px;
 }
 .weather-description{
-    background-color: #15719f4a;
+    background-color: #1e2933;
     border-radius: 10px;
     width: 150px;
     padding-left: 15px;
